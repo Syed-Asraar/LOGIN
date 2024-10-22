@@ -1,5 +1,5 @@
 const mongoose=require('mongoose');
-const connect=mongoose.connect("mongodb://localhost:27017/login-tut");
+const connect=mongoose.connect("mongodb+srv://syedasraar5103:<db_password>@cluster0.zdd4b.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0");
 
 connect.then(()=>{
     console.log("Database connected");
