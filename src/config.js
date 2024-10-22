@@ -5,7 +5,7 @@ connect.then(()=>{
     console.log("Database connected");
 })
 .catch((e)=>{
-    console.log("Not connected"+e);
+    console.log("Not connected");
 });
 const LoginSchema = new mongoose.Schema({
     name:{
