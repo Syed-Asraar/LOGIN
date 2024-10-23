@@ -4,7 +4,7 @@ const connect = mongoose.connect("mongodb+srv://syedasraar5103:asraar%4011@clust
 connect.then(()=>{
     console.log("Database connected");
 })
-.catch((e)=>{
+.catch(()=>{
     console.log("Not connected");
 });
 const LoginSchema = new mongoose.Schema({
